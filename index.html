@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfair Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Playfair Cipher</h1>
+        <div class="input-section">
+            <label for="key">Key:</label>
+            <input type="text" id="key" placeholder="Enter cipher key">
+        </div>
+        <div class="input-section">
+            <label for="plaintext">Plaintext:</label>
+            <textarea id="plaintext" rows="4" placeholder="Enter text to encrypt"></textarea>
+        </div>
+        <div class="buttons">
+            <button id="encrypt-btn">Encrypt</button>
+            <button id="decrypt-btn">Decrypt</button>
+        </div>
+        <div class="output-section">
+            <h3>Result:</h3>
+            <textarea id="result" rows="4" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
